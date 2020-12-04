@@ -60,14 +60,12 @@ header {
 	justify-content:space-between;
 	align-items:center;
 	margin-bottom: 1rem;
-	padding-top: 1rem;
+	padding-top: 0.5rem;
 }
 h1 {
 	display:flex;
 	align-items:center;
-	margin-top: -0.75rem;
 	font-size: 3rem;
-	padding-top:1%;
 	margin-left:0.75rem;
 }
 .links {
@@ -88,13 +86,28 @@ h1 {
 }
 
 .intro {
-	border: 1px solid black;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	background:url(https://i.picsum.photos/id/206/150/150.jpg?hmac=wzOGoLL3hvAHXlQZMBtlV0gReSLLUQ4HGBmTptaSu6U);
-	width:70%;
 	margin-left:auto;
 	margin-right:auto;
-	padding-bottom:30rem;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	background:url(https://i.picsum.photos/id/958/800/800.jpg?hmac=RmOB-ZsSX_fSj6pysuN8heR66NRTM6rNFrUWimQ-WH4) no-repeat;
+	width:70%;
+	height: 40vh; 
+	background-position:center;
+	background-size:100%;
+	font-size: 3.5rem;
+	color:black;
+	flex-wrap:wrap;
+	text-align:center;
+}
+ h2{
+	text-align:center;
+
+}
+.intro a {
+	text-decoration: none;
+	color: black;
+	padding: 2%;
 }
