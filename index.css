@@ -142,3 +142,43 @@ footer nav{
 .socials {
 	padding:1%;
 }
+
+@media (max-width: 800px) { 
+	.links {
+		margin-right:2%;
+	}
+	.img-text {
+		margin-top:8%;
+	}
+	.gallery div{
+		width:47%;
+	}
+}
+
+@media (max-width: 500px) { 
+	header nav {
+		flex-direction:column;
+		height: 16vh;
+	}
+	.links {
+		padding-bottom:2%;
+	}
+	.name {
+		display:flex;
+		flex-wrap:nowrap;
+		width:42%;
+	}
+	.img-text {
+		margin-top:25%;
+		flex-direction:column;
+	}
+	.img-text .image {
+		width:95%;
+	}
+	.img-text .text {
+		width:95%;
+	}
+	.gallery div {
+		width:95%;
+	}
+}
