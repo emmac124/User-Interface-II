@@ -278,3 +278,54 @@ footer nav{
 		height:25vh;
 	}
 }
+
+@media (max-width:360px) { /*Iphone 360x640*/
+	header nav .links {
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.img-text {
+		margin-top: 40%;
+	}
+}
+
+@media (max-width:1366px) {/*Laptop 1366x768*/
+/*Nothing to change, all looked good for this  size*/
+}
+
+@media (max-width:1920px){/*Wide screen 1920×1080*/
+	header nav .name{
+		margin-top:5%;
+	}
+	header nav .name h1 {
+		font-size:6rem;
+	}
+	header nav .links a {
+		padding:3%;
+		font-size:3rem;
+	}
+	.img-text {
+		margin-top:15%;
+	}
+	.img-text .text h2 {
+		font-size:5rem;
+		margin-bottom:5%;
+	}
+	.img-text .text a {
+		font-size: 3.50rem;
+	}
+	p {
+		font-size: 2.75rem;
+		margin-top:3%;
+	}
+	footer nav h2 {
+		font-size:5.25rem;
+	}
+	footer nav div a {
+		font-size:4rem;
+	}
+	footer nav div .socials {
+		font-size: 3.5rem;
+	}
+}
