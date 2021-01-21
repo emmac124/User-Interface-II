@@ -121,7 +121,7 @@ header nav {
 	border:1px solid gray;
 }
 .links a:hover{
-	background-color: white;
+	background-color: gray;
 	transform: scale(1.5);
 	padding:0.75% 0.75%;
 	border-radius:15%;
@@ -327,6 +327,6 @@ footer nav{
 		font-size:4rem;
 	}
 	footer nav div .socials {
-		font-size: 3.5rem;
+		font-size: 3.5rem; 
 	}
-} */
+}  */
